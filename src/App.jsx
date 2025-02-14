@@ -1,7 +1,6 @@
 import React from 'react'
 import Nav from './Componants/Nav'
-import First from './Componants/First'
-import Second from './Componants/Second'
+import Auth from './Componants/Auth'
 
 const App = () => {
   return (
@@ -9,8 +8,7 @@ const App = () => {
       <div className='w-[95%] h-full flex flex-col items-center justify-between box-border p-2'>
         <Nav/>
         <div className='w-[90%] h-auto flex items-center box-border justify-center'>
-          <First/>
-          <Second/>
+          <Auth/>
         </div>
       </div>
     </div>

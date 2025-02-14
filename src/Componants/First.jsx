@@ -1,13 +1,13 @@
 import React from 'react'
 import img from '../../src/assets/Saly-1.png'
-import Person1 from '../../src/assets/Person1.png'
-import Person2 from '../../src/assets/Person2.png'
-import { IoIosCloseCircleOutline } from "react-icons/io";
+// import Person1 from '../../src/assets/Person1.png'
+// import Person2 from '../../src/assets/Person2.png'
+// import { IoIosCloseCircleOutline } from "react-icons/io";
 
 const first = () => {
   return (
     <div className='w-[50%] flex flex-col items-center justify-center box-border'>
-      <div className='h-[50%] w-full flex items-center justify-center'>
+      {/* <div className='h-[50%] w-full flex items-center justify-center'>
         <div className='w-1/2 flex flex-col gap-2'>
           <h1 className='text-3xl text-white font-semibold'>Sign in to</h1>
           <h2 className='text-2xl text-white font-medium'>your one stop Portal</h2>
@@ -35,7 +35,7 @@ const first = () => {
             <h5 className='text-[#ADADAD]'>Active 2 day ago</h5>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
